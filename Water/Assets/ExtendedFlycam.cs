@@ -34,6 +34,10 @@ public class ExtendedFlycam : MonoBehaviour
 	{
 		//Screen.lockCursor = true;
 	}
+
+	void OnPreRender() {
+		//GL.wireframe = true;
+	}
  
 	void Update ()
 	{
